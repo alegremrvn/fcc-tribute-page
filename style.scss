@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+}
+
+#container {
+  background-color: #eeeeee;
+  margin: 30px 5px;
+  border-radius: 10px;
+  color: #333333;
+  padding: 8px;
+}
+
+h1, p, img, figcaption {
+  text-align: center;
+  margin: 25px 0;
+}
+
+figure {
+  padding: 5px;
+  background-color: #ffffff;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+  width: 90%
+}
+
+figcaption {
+  text-align: center;
+}
+
+ul {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+ul {
+  li {
+    margin: 20px 0;
+  }
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.year {
+  font-weight: bold;
+}
+
+.quote { 
+  margin: 60px auto;
+}
+
+.quote {
+  p {
+    text-align: left;
+    margin: 5px auto;
+    display: block;
+    max-width: 500px;
+    font-style: italic;
+  }
+}
+
+footer {
+  font-weight: bold;
+  text-align: center;
+  margin: 30px auto;
+}
