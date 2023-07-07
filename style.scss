@@ -10,7 +10,10 @@
   padding: 8px;
 }
 
-h1, p, img, figcaption {
+h1,
+p,
+img,
+figcaption {
   text-align: center;
   margin: 25px 0;
 }
@@ -49,7 +52,7 @@ ul {
   font-weight: bold;
 }
 
-.quote { 
+.quote {
   margin: 60px auto;
 }
 
@@ -67,4 +70,17 @@ footer {
   font-weight: bold;
   text-align: center;
   margin: 30px auto;
+}
+
+dialog {
+  border-radius: 8px;
+  margin: 0 auto;
+  border: 3px solid black;
+}
+
+dialog form button {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  font-size: 20px;
 }
